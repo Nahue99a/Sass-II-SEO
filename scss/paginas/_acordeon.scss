@@ -1,0 +1,15 @@
+.accordion{
+    margin-top: 3%;
+}
+
+.mapa{
+    @include mediaQuery (500px){
+        width: 100%;
+    }
+}
+
+.sucursal{
+    @include mediaQuery (500px){
+        text-align: center;
+    }
+}

@@ -1,0 +1,12 @@
+.navbar{
+    font-family: arial black;
+
+    ul{
+        margin-left: 5%;
+    }
+
+    @include mediaQuery (500px){
+        text-align: center;
+    }
+}
+

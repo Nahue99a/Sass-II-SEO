@@ -1,0 +1,42 @@
+footer{
+    margin-top: 2%;
+    @extend %alignCenter;
+    list-style: none;
+
+    ul{
+        li{
+            margin-top: 5px;
+        }
+    }
+}
+
+#whatsapp{
+    color: map-get($colores , primario );
+
+    &:hover{
+        color:map-get($colores , whatsapp-hover) ;
+    }
+}
+
+#facebook{
+    color: map-get($colores , primario );
+
+    &:hover{
+        color: map-get($colores , facebook-hover);
+    }
+}
+
+#instagram{
+    color: map-get($colores , primario );
+
+    &:hover{
+        color: map-get($colores , instagram-hover );
+    }
+}
+
+#youtube{
+    color: map-get($colores, primario );
+    &:hover{
+        color: map-get($colores, youtube-hover)
+    }
+}

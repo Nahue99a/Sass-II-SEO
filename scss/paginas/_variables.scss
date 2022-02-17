@@ -1,0 +1,43 @@
+%alignCenter{
+    text-align: center;
+}
+
+header{
+    min-height: 10vh;
+}
+
+body{
+    min-height: 80vh;
+}
+
+footer{
+    min-height: 5vh;
+}
+
+.titulo{
+    text-decoration: underline;
+}
+
+.subtitulos{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    font-family: arial black;
+    @extend %alignCenter;
+}
+
+$colores: (
+    primario:rgb(0, 0, 0),
+    youtube-hover:red,
+    instagram-hover: #6e1f6e,
+    facebook-hover:#002fff,
+    whatsapp-hover:#0fad44,
+    bg:rgb(236, 231, 231),
+);
+
+@mixin mediaQuery ($pixel){
+    @media only screen and (max-width: $pixel) {
+        @content
+    }
+};
+
